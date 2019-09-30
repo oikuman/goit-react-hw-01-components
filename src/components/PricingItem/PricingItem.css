@@ -1,0 +1,108 @@
+/* oswald-regular - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('./fonts/oswald-v26-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/oswald-v26-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'),
+    url('./fonts/raleway-v14-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/raleway-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.pricing-list-item {
+  padding: 80px 74px;
+  background-color: #fff;
+}
+
+.pricing-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.pricing-item {
+  max-width: 90%;
+  padding: 2%;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 170px;
+}
+
+.image {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flexbox;
+}
+
+.pricing-item-label {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 35px;
+}
+
+.capacity {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 17px;
+  color: #b4b4b4;
+}
+
+.description {
+  font-family: 'Raleway';
+  font-size: 15px;
+  line-height: 25px;
+  color: #bababa;
+}
+
+.price {
+  font-family: 'Oswald';
+  font-size: 40px;
+  color: #7f8c8d;
+}
+
+.button {
+  font-family: 'Oswald';
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  min-width: 200px;
+  padding: 16px 60px;
+  border: none;
+  outline: none;
+}
+
+.label-bronze {
+  color: rgb(221, 124, 75);
+}
+
+.label-silver {
+  color: rgb(192, 192, 192);
+}
+
+.label-gold {
+  color: rgb(221, 164, 49);
+}
+
+.btn-bronze {
+  background-color: rgb(221, 124, 75);
+}
+
+.btn-silver {
+  background-color: rgb(192, 192, 192);
+}
+
+.btn-gold {
+  background-color: rgb(221, 164, 49);
+}

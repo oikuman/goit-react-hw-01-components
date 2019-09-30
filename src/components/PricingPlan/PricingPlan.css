@@ -1,0 +1,5 @@
+.pricing-plan {
+  display: flex;
+  list-style: none;
+  margin: 50px;
+}

@@ -1,0 +1,106 @@
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato Reg';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'),
+    url('./fonts/lato-v16-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/lato-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: 'Lato Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'),
+    url('./fonts/lato-v16-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/lato-v16-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: 'Lato Black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'),
+    url('./fonts/lato-v16-latin-900.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('./fonts/lato-v16-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.profile {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  margin: 50px;
+}
+
+.description {
+}
+
+.avatar {
+  height: auto;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  font-family: 'Lato Bold';
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(18, 34, 54);
+}
+
+.tag {
+  font-family: 'Lato Reg';
+  font-size: 14px;
+  line-height: 32px;
+  color: rgb(118, 134, 150);
+}
+
+.location {
+  font-family: 'Lato Reg';
+  font-size: 14px;
+  line-height: 32px;
+  color: rgb(118, 134, 150);
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgb(243, 246, 249);
+  border: 1px solid rgb(227, 233, 240);
+  min-width: 86px;
+  min-height: 74px;
+}
+
+.stats-label {
+  font-family: 'Lato Reg';
+  font-size: 12px;
+  line-height: 32px;
+  color: rgb(118, 134, 150);
+}
+
+.quantity {
+  font-family: 'Lato Black';
+  font-size: 14px;
+  line-height: 32px;
+  color: rgb(31, 51, 73);
+}
